@@ -14,7 +14,14 @@ app.get("/repositories", (request, response) => {
 });
 
 app.post("/repositories", (request, response) => {
-  // TODO
+  const{title, url, techs} = request.body;
+
+  const new_repository={id:uuid(),title, url, techs, likes:0}
+
+  repositories.push(new_repository);
+  
+  response.status(201);
+  return response.json(new_repository);
 });
 
 app.put("/repositories/:id", (request, response) => {
