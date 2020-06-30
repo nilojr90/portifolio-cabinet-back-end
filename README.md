@@ -29,6 +29,6 @@ Feito como exercício do curso "GoStack".
 - Like: 
   **POST** /repositories/:id/like
 
-## 📑Licensa
+## 📑Licença
 [MIT] (http://escolhaumalicenca.com.br/licencas/mit/)
 
