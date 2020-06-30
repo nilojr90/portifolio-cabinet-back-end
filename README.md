@@ -1,4 +1,5 @@
 # Portfolio Cabinet 🗃
+[![CodeFactor](https://www.codefactor.io/repository/github/nilojr90/portifolio-cabinet-back-end/badge)](https://www.codefactor.io/repository/github/nilojr90/portifolio-cabinet-back-end)
 
 Aplicação back-end para armazenar repositórios do seu portfólio,  que permite a criação, listagem, atualização e remoção dos  repositórios, e também  permite que os repositórios possam receber  "likes" 👍.
 
